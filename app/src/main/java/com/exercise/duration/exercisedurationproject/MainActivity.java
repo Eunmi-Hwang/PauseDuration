@@ -80,7 +80,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     };
 
-
     // 매초마다 갱신되는 타임Handler
     Handler time_handler = new Handler() {
         @Override
