@@ -34,6 +34,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     private int dataListNum = 0; // 현재 밴드데이터가 몇번째인지에 대한 구분자자
 
+
     private ArrayList<Long> startDurationArray = new ArrayList<>();
     private ArrayList<Long> endDurationArray = new ArrayList<>();
     private Map<Long, Map<String, Long>> pauseMap = new LinkedHashMap<>();
